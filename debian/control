@@ -1,0 +1,11 @@
+Source: ucoslam
+Section: devel
+Priority: optional
+Maintainer: Rafael Munoz-Salinas  <rmsalinas@uco.es>
+Build-Depends: cmake, build-essential, libopencv-dev, qtbase5-dev, libqt5opengl5-dev, libopenni2-dev
+Homepage: http://www.uco.es/grupos/ava/node/26
+
+Package: ucoslam
+Architecture: any
+Depends: python-opencv, libqt5gui5, libqt5opengl5, libopenni2-0
+Description: UcoSLAM is a library for Simultaneous Localization and Mapping

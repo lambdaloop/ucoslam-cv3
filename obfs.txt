@@ -1,0 +1,23 @@
+
+files=            mapmanager.cpp mapinitializer.cpp loopdetector.cpp system.cpp  frameextractor.cpp 
+keepnames=        mapmanager.cpp mapinitializer.cpp loopdetector.cpp system.cpp  frameextractor.cpp
+files-explicit=   mapmanager.h   mapinitializer.h   loopdetector.h   system.h    frameextractor.h
+removeLinesWithCommands=__UCOSLAM_ADDTIMER__ __UCOSLAM_TIMER_EVENT__ _debug_msg assert _debug_exec
+args=
+-DUCOSLAM_DSO_EXPORTS -DUSE_AVX -DUSE_OMP -DUSE_SSE -DXFLANN_OPENCV
+-Wall -std=c++11 -mmmx -msse -msse2 -msse3 -fopenmp  -mavx   -O3 -g0  -DNDEBUG -fPIC   -std=gnu++11
+-I${OPENCV_INCLUDEDIR}
+-I${PROJECT_ROOT}/../3rdparty/g2o/g2o/stuff 
+-I${PROJECT_ROOT}/../3rdparty/eigen3/eigen3
+-I${PROJECT_ROOT}/../3rdparty/g2o
+-I${PROJECT_ROOT}/../3rdparty/xflann
+-I${PROJECT_ROOT}/../3rdparty/aruco
+-I${PROJECT_ROOT}/../3rdparty/fbow
+-I${PROJECT_ROOT}
+-I${PROJECT_ROOT}/featureextractors
+-I${PROJECT_ROOT}/map_types
+-I${PROJECT_ROOT}/optimization
+-I${PROJECT_ROOT}/private_basictypes
+-I${PROJECT_ROOT}/utils
+
+ 

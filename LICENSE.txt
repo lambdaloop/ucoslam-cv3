@@ -1,0 +1,36 @@
+ucoslam is released under a GPLv3 license (see License-gpl.txt).
+Please see below for a list of all included code and library dependencies which are not property of the authors of SPM-SLAM.
+
+For a closed-source version of ucoslam for commercial purposes, please contact the authors.
+
+If you use ucoslam in an academic work, please cite the most relevant publication associated by visiting:
+http://www.uco.es/investiga/grupos/ava/node/58
+
+ 
+
+##List of Known Dependencies
+
+In this document we list all the pieces of code included  by SPM-SLAM  and linked libraries which are not property of the authors of SPM-SLAM .
+
+
+#####Code in 3rdparty folder
+
+* All code in **g2o** folder.
+This is a modified version of [g2o](https://github.com/RainerKuemmerle/g2o). All files included are BSD licensed.
+
+#####Library dependencies 
+
+* **OpenCV**.
+BSD license.
+
+* **Eigen3**.
+For versions greater than 3.1.1 is MPL2, earlier versions are LGPLv3.
+
+
+
+
+
+
+
+
+

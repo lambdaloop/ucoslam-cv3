@@ -1,0 +1,15 @@
+
+In order to reproduce the tests in the paper, we have created an script to run the test with the appropriated parameters.
+We are not providing any support to this process. We just provide the data for user to work on their own.
+
+*******************************************
+test_generator_monocular.sh
+
+script that generates the commands to test the monocular sequences using only keypoints 
+
+
+*******************************************
+test_generator_marker+kp.sh
+
+script that generates the commands to test the SPM sequences and also in the UcoCeiling using both keypoints and markers
+

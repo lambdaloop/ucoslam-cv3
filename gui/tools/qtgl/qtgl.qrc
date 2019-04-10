@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/qtgl">
+        <file>icons/top.png</file>
+        <file>icons/views.png</file>
+        <file>icons/front.png</file>
+        <file>icons/lateral.png</file>
+        <file>icons/axis3d.png</file>
+        <file>icons/leftlateral.png</file>
+        <file>icons/rightlateral.png</file>
+    </qresource>
+</RCC>
